@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 20
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers
@@ -25,4 +25,11 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+<<<<<<< HEAD
     
+=======
+    - name: Run unit tests
+      run: npm run test
+    - name: Run OAs tests
+      run: npm run test:oas
+>>>>>>> 33ac3492ea5f7e9ac62b20ba0d2d74688205e29b

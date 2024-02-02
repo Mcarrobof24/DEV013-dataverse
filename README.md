@@ -21,12 +21,13 @@
 * [7. Criterios de aceptación mínimos del proyecto](#7-criterios-de-aceptación-mínimos-del-proyecto)
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Consideraciones para el Project Feedback](#10-Consideraciones-para-el-Project-Feedback)
 
 ***
 
 ## 1. Definición del proyecto
 
-En este proyecto se **construyó una página web de cruceros en donde se visualiza un  _conjunto (set) de datos_** generados como la herramienta de Inteligencia Articial [ChatGPT](https://openai.com/chatgpt).
+En este proyecto se **construyó una página web de cruceros en donde se visualiza un  _conjunto (set) de datos_** generados con la herramienta de Inteligencia Articial [ChatGPT](https://openai.com/chatgpt).
 
 ## 2. Funcionalidades
 
@@ -47,14 +48,14 @@ filtrarla, ordenarla y calcular el promedio de precios de los cruceros.**
 ### Ordenado
 * **Ordenado por nombre:** Los usuarios pueden ordenar la data con la propiedad de nombre alfabéticamente de forma ascendente (A-Z) o de forma descendente (Z-A).
 
-* **Ordenamiento por precio:** Los usuarios pueden ordenar la lista de cruceros según el precio de cada uno, lo que facilita la búsquedad de cruceros económicos al proporcionar una ruta eficiente de la información deseada. 
+* **Ordenamiento por precio:** Los usuarios pueden ordenar la lista de cruceros según el precio de cada uno, lo que facilita la búsqueda de cruceros económicos al proporcionar una ruta eficiente de la información deseada. 
 
 Las funciones de ordenado por nombre y precio operan sobre la data filtrada.
 
 ### Estadísticas
-* **Promedio de precio de los cruceros:** Al hacer click en el botón de estadística los usuarios puede visualizar el promedio de los precios de los cruceros. Está función también permite ver el promedio en nuestra data filtrada.
+* **Promedio de precio de los cruceros:** Al hacer click en el botón de estadística los usuarios puede visualizar el promedio de los precios de los cruceros. Ésta función también permite ver el promedio en nuestra data filtrada.
 
-### Limpiar
+### Limpiar (Clear)
 * Se agregó el botón de limpiar que permite a los usuarios reiniciar la página web, limpiando filtros, ordenamiento y estadísticas.
 
 Las funciones de filtrar, ordenar, estaditísticas y limpiar agregan el contenido de una manera dinámica utilizando JavaScript.
@@ -81,8 +82,11 @@ Los usuarios quieren ir de vacaciones en un crucero de Cruise Lines y desean ver
 
 - **Definiciones de terminado (para el equipo):**
   - Todo el código está subido a la rama del repositorio en GitHub.
-  - Se publica la página web en GitHub Pages.
   - Se realizan 2 pruebas con usuarios para saber que entiendan todo.
+
+<p align="center">
+<img src= historia-usuario-1.png alt="historia de usuario 1">
+</p>
 
 ### 3.2. Segunda historia de usuario
 
@@ -104,6 +108,10 @@ Los usuarios quieren ir de vacaciones en un crucero de Cruise Lines para ello de
   - Todo el código está subido a la rama del repositorio en GitHub.
   - Se publica la página web en GitHub Pages.
   - Se realizan 2 pruebas con usuarios para saber que entiendan todo.
+
+<p align="center">
+<img src= historia-usuario-2.png alt="historia de usuario 2">
+</p>
 
 ### 3.3. Tercera historia de usuario
 
@@ -128,6 +136,10 @@ Los usuarios quieren ir de vacaciones en un crucero de Cruise Lines para ello de
   - Todo el código está subido a la rama del repositorio en GitHub.
   - Se publica la página web en GitHub Pages.
   - Se realizan 2 pruebas con usuarios para saber que entiendan todo.
+
+<p align="center">
+<img src= historia-usuario-3.png alt="historia de usuario 3">
+</p>
 
 ## 4. Generación de datos
 
@@ -180,18 +192,29 @@ const data = [
 ```
 
 ### 4.1. Prompt utilizado
-**WENDY AGREGA AQUI LAS IMAGENES DEL PROMPT**
+
+<p align="center">
+<img src= prompting-1.png alt="prompting 1">
+<img src= prompting-2.png alt="prompting 2">
+<img src= prompting-3.png alt="prompting 3">
+</p>
 
 ## 5. Diseño de la Interfaz de Usuaria
 El diseño de interfaz de usuario es esencial para crear experiencias web efectivas y satisfactorias para los usuarios, teniendo en cuenta aspectos estéticos, funcionales y de usabilidad.
 
-En el presente proyecto se realizaron en[Figma](https://www.figma.com/) dos prototipos de baja y alta fidelidad.
+En el presente proyecto se realizaron en [Figma](https://www.figma.com/file/V5doEKg8V9PpNrpNUzrGH3/Prototipos-HU1?type=design&node-id=0%3A1&mode=design&t=QLpp7qFZiz18dmBt-1) dos prototipos de alta fidelidad con la metodología Mobile First.
 
 ### 5.1. Prototipo de baja fidelidad
-**WENDY AGREGA AQUI LAS IMAGENES DEL PROTOTIPO DE BAJA FIDELIDAD**
+<p align="center">
+<img src= low-fidelity-mobile-prototipe.png alt="low fidelity mobile prototipe">
+<img src= low-fidelity-desktop-prototipe.png alt="hilowgh fidelity desktop prototipe">
+</p>
 
 ### 5.2. Prototipo de alta fidelidad
-**WENDY AGREGA AQUI LAS IMAGENES DEL PROTOTIPO DE ALTA FIDELIDAD**
+<p align="center">
+<img src= mobile-prototipe.png alt="high fidelity mobile prototipe">
+<img src= desktop-prototipe.png alt="high fidelity desktop prototipe">
+</p>
 
 ## 6. Estructura del Proyecto
 
@@ -584,3 +607,36 @@ Se usó el framework [Jest](https://jestjs.io/) para ejecutar las pruebas unitar
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
+#### Organización del Trabajo
+
+* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
+  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
+  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
+* [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+
+## 10. Consideraciones para el Project Feedback
+
+Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+
+* [x] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* [x] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* [x] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+  que tienen una cobertura del 70% de _statements_ (_sentencias_),
+  _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
+* [x] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* [x] Está subido a GitHub y desplegado en GitHub Pages
+* [x] Captura de pantalla del prompt utilizado para generar los datos.
+* Tiene un `README.md` con la siguente:
+  - [x] _Definición del producto_ clara e informativa
+  - [x] Historias de usuario
+  - [x] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - [x] El listado de problemas que detectaste a través de tests
+    de usabilidad en el `README.md`
+* Tiene un UI que cumple las funcionalidades:
+  - [x] Muestra lista con datos y/o indicadores
+  - [x] Permite ordenar data por uno o más campos (asc y desc)
+  - [x] Permite filtrar data con base en una condición
+  - [x] Permite limpiar los filtros con un botón
+  - [x] Es _responsive_
+
+Autoevaluación de _objetivos de aprendizaje_ y _life skills_ completados.
